@@ -930,12 +930,12 @@ function addnewexp(x)
         //var str = 'myexpdiv'+ctr
 
                                                   
-        var exptxt='<div class="col s12" id="myexpdiv"><p><label><input type="checkbox" id="todate'+expctr+',c" onchange="checkEmployer(this,this.id)" class="filled"/><span>Is it current employer ?</span></label></p><div class="input-field col s6"><input name="orgname0[]" id="orgname'+expctr+'" type="text" class="validate" onkeypress="return mytextvalid(event)"  ><label for="orgname'+expctr+'" style="font-size: 11px">Current Organization Name</label></div><div class="input-field col s6"><input name="olddesignation0[]" id="olddesignation'+expctr+'" type="text" class="validate" onkeypress="return mytextvalid(event)" ><label for="olddesignation'+expctr+'" style="font-size: 11px">Designation</label></div><div class="input-field col s6"><input name="fromdate0[]" id="fromdate'+expctr+'" type="text" class="datepicker" onkeydown="return false" ><label for="fromdate'+expctr+'" style="font-size: 11px;">From</label></div><div class="input-field col s6"><input name="todate0[]" id="todate'+expctr+'" type="text" class="datepicker" onkeydown="return false"><label for="todate'+expctr+'" style="font-size: 11px;">To</label></div><div class="row" id="addnextexp"><a class="btn-floating btn" onclick="addnewexp(this)"><i class="material-icons">add</i></a><a class="btn-floating btn" style="float:right" onclick="removenewexp(this.id)" id="rembtn"><i class="material-icons">remove</i></a></div></div>'
+        var exptxt='<div class="col s12" id="myexpdiv"><div class="input-field col s6"><input name="orgname0[]" id="orgname'+expctr+'" type="text" class="validate" onkeypress="return mytextvalid(event)"  ><label for="orgname'+expctr+'" style="font-size: 11px">Current Organization Name</label></div><div class="input-field col s6"><input name="olddesignation0[]" id="olddesignation'+expctr+'" type="text" class="validate" onkeypress="return mytextvalid(event)" ><label for="olddesignation'+expctr+'" style="font-size: 11px">Designation</label></div><div class="input-field col s6"><input name="fromdate0[]" id="fromdate'+expctr+'" type="text" class="datepicker" onkeydown="return false" ><label for="fromdate'+expctr+'" style="font-size: 11px;">From</label></div><div class="input-field col s6"><input name="todate0[]" id="todate'+expctr+'" type="text" class="datepicker" onkeydown="return false"><label for="todate'+expctr+'" style="font-size: 11px;">To</label></div><div class="row" id="addnextexp"><a class="btn-floating btn" onclick="addnewexp(this)"><i class="material-icons">add</i></a><a class="btn-floating btn" style="float:right" onclick="removenewexp(this.id)" id="rembtn"><i class="material-icons">remove</i></a></div></div>'
         $("#mainexpdiv").append(exptxt);
         $('.datepicker').datepicker({
                         //dateFormat:"dd/mm/yy",
                         yearRange:[1900,cyear],
-                        changeMonth:true,
+                        changeMonth:true
                         
                         //changeYear:true
                
@@ -1030,27 +1030,36 @@ function checkSpecialPG()
                 $("#otherspecialPg").hide(800)
         }
 }
+// function checkinternet(me,cid){
+//         if(me.checked)
+//         {
+//                 console.log("yup")
+//                 // $(cid2).prop('disabled',true)
+//         }
+//         else
+//         {
+//                 console.log("nope")
+//                 // $(cid2).prop('disabled',false)
+//         }       
+// }
+
+
+
 
 function checkEmployer(me,cid)
-{
-        cid = "#"+cid;
+{       cid = "#"+cid;
         cid2 = cid.split(',');
         cid2 = cid2[0];
-       
         if(me.checked)
         {
-                
+                // console.log("yup")
                 $(cid2).prop('disabled',true)
         }
         else
         {
+                // console.log("nope")
                 $(cid2).prop('disabled',false)
-        }
-
-
-
-        
-        
+        }       
 }
 
 /******************AJAX CALL STARTS************************ */
@@ -1236,7 +1245,7 @@ $("#submitformdata").click(function ()
                                                 if($('#internet').prop("checked") == true)
                                                 {
                                                         // referalchoice=$('#internet').val();
-                                                        fd.append("internet",$("#internet").val())
+                                                        fd.append("internet",$("#internet").val());
 
                                                 }
 
@@ -1265,7 +1274,17 @@ $("#submitformdata").click(function ()
                                                         fd.append("otherdetails",$("#otherdetails").val())
 
                                                 
+                                                
                                                 }
+                                                // if($('#todate0,c').prop("checked") == true)
+                                                // {
+                                                //         // referalchoice=$('#internet').val();
+                                                //         fd.append("todate0,c",$("#todate0,c").val())
+                                                //         console.log("yup1")
+                                                // }
+
+
+
                                                 // orgname0olddesignation0fromdate0todate0managername0managermail0
                                                         
                                                 $('input[name^="orgname0"]').each(function() {
