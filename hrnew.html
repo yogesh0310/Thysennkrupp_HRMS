@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="./public/css/materialize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./public/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+          
+          <!-- for sidenav -->
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+    <script src="./public/jquery-3.2.1.min.js"></script>
+    
+    <script src="./public/js/materialize.js"></script>
+    <script src="./public/js/materialize.min.js"></script>
+  
+  
+  </head>
+<style>
+
+input[type="file"]
+{
+  display: none;
+}
+
+
+</style>
+
+<body>
+  
+    <nav>
+        <div class="nav-wrapper blue darken-1">
+        <a href="http://localhost/hrms/">
+            <button class="btn waves-effect blue darken-1" style="float:left;margin-top: 18px;margin-right: 18px "> <- BACK</button>
+            </a> 
+      
+            <a href="#!" class="brand-logo center">thyssenkrupp Elevators</a>
+            <div id="logoutuser" class="row">
+          <button class="btn waves-effect blue darken-1" type="submit" name="action" style="float:right;margin-top: 18px;margin-right: 18px ">LOGOUT</button>
+        </div>
+          </div>
+        </nav>
+        <br><br>
+ <div class="row">
+<div class="col s7 offset-m3">
+  <table class="striped">
+    <thead>
+      <tr>
+          <th>Instance ID</th>
+          <th>Position Details</th>
+          <th>Zone</th>
+          <th>Branch</th>
+          <th>No. of Positions</th>
+          <th>Status</th>
+          <th>Initiate</th>          
+      </tr>      
+    </thead>
+    <tbody id='rawdata'>
+    </tbody>
+  </table>
+</div> 
+</div>
+
+
+
+
+
+<div class="row" id="dumpdiv">
+    <div class="col s4 offset-m4">
+      <div class="card white darken-1">
+        <div class="card-content blue-text">
+          <span class="card-title"><b><center>Upload Email Dump</center></b></span>
+
+
+          
+          <form action="" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <div class="input-field col s4 offset-m4">
+                <label class="custom-file-upload">
+                    <a class="btn blue darken-1">
+                      <input id="emaildump" type="file"><p id="myfile">Upload File</p></a>
+                </label>
+            </div>
+          </div><br>
+
+          <div class="input-field col s4 offset-s4 center">
+              <button  class="btn waves-effect waves-light blue darken-1" id="submitmaildump" type="submit">Submit
+                <i class="material-icons right">send</i>
+              </button>
+          </div><br><br>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="row" id="emailcollection">
+    <div class="input-field col s4 offset-m4 blue-text">
+      <i class="material-icons prefix">email</i>
+      <input id="email" onfocus="addText(this)" type="text" class="validate" placeholder="Enter Email">
+    </div>
+  </div>
+  
+  <div class="input-field col s6 offset-m4 center">
+    <button  class="btn waves-effect waves-light blue darken-1" id="submitmail" >Submit Mail
+      <i class="material-icons right">send</i>
+    </button>
+  </div>
+
+
+
+
+  <div class="row" >
+      <center>
+      <p style="color: green" id="creatinggrp">Creating Group...! </p>
+      <p style="color: green" id="groupcreated">Group Created Successfully </p>
+      <p style="color: red" id="groupnotcreated">Unable to create group </p>
+      </center>
+  </div>
+
+
+
+
+
+  
+</body>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
+<script>
+$('#dumpdiv').hide();
+$('#emailcollection').hide();
+$('#edump').hide();
+$('#submitmaildump').hide();
+$('#submitmail').hide();
+$('#groupcreated').hide()
+$('#groupnotcreated').hide()
+$('#creatinggrp').hide()
+
+
+
+$('#emaildump').change(function()
+{
+      var f = $('#emaildump').val()
+      alert(f)
+      $('#myfile').replaceWith(f);
+        
+})
+
+var id;
+function xyz(x)
+{
+  id='#'+x;
+  $('#dumpdiv').fadeIn();
+  $('#submitmaildump').fadeIn();
+  $('#emailcollection').fadeIn();
+  $('#submitmail').fadeIn();
+  $(document).scrollTop($(document).height()); 
+  }
+  var ctr = 0
+
+  
+function addText(x)
+{
+ctr = ctr+1
+var str = 'email'+ctr
+var txt="<div class='row'><div class='input-field col s4 offset-m4  blue-text' ><i class='material-icons prefix'>email</i>  <input id='"+str+"' onfocus='addText(this)' type='text' class='validate' placeholder='Enter Email'></div></div>"
+
+$("#emailcollection").append(txt);
+}
+var arr=[]
+$(document).ready(function(){
+  $('#reason_line').hide()
+  $('.modal').modal();     
+  
+
+ $.ajax({
+    url:'demo.txt',
+    type:'GET',
+    data:{'arr1':arr},
+    success : function(para)
+    {
+      console.log(para+"<br>")
+      //para=JSON.parse(para)
+      para=[['1001','Developer','North','Sales','5','ongoing'],['1001','Developer','North','Sales','5','ongoing'],['1001','Developer','North','Sales','5','ongoing'],['1001','Developer','North','Sales','5','ongoing'],['1001','Developer','North','Sales','5','ongoing'],['1001','Developer','North','Sales','5','ongoing'],['1001','Developer','North','Sales','5','ongoing'],['1001','Developer','North','Sales','5','ongoing'],['1001','Developer','North','Sales','5','ongoing'],['1001','Developer','North','Sales','5','ongoing']]
+      console.log("this is length : "+para.length)
+      for(let i=0;i<para.length;i++)
+      {
+        arr[i]=para[i];
+      }
+      for(let j=0;j<arr.length;j++)
+      {
+        var x='<tr id="rows" class="rows"><td>'+arr[j][0]+'</td><td>'+arr[j][1]+'</td><td>'+arr[j][2]+'</td><td>'+arr[j][3]+'</td><td>'+arr[j][4]+'</td><td>'+arr[j][5]+'</td><td><a id="'+arr[j][0]+'" class="btn green darken-1" onclick="xyz(this.id)">Initiate</a></td></tr>'
+          
+        
+      
+        
+        
+        
+        $('#rawdata').append(x);
+      }
+     
+    },
+  })
+  
+
+})
+$('#submitmail').click(function()
+{
+  $('#emailcollection').fadeOut(600)
+  $('#creatinggrp').fadeIn(600)
+
+
+  var arr1=[]
+  arr1[0]= $('#email').val()
+  for(let i =1;i<ctr;i++)
+  {
+    var x = '#email'+i
+    arr1[i] = $(x).val()
+    arr1= arr1.filter(function(entry) { return entry.trim() != ""; });
+  }
+  alert(arr1)
+  $.ajax({
+    url : 'demo.txt',
+
+    type:'GET',
+    data:{'emails':arr1},
+    success : function(para)
+    {
+      
+        $('#groupcreated').show();
+      alert(id)
+      $(id).attr('disabled','disabled')
+      $(id).text('Initiated')
+    },
+  })
+})
+
+
+
+function merafun2(cnrf)
+{
+  if(cnrf)
+  {
+    
+    if($('#reject_reason').val()=="")
+    {
+      $('#reason_line').show()
+    }
+    else
+    {
+      $("#modal3").modal("close")
+      alert($('#myb').attr('name'))
+    }
+  }
+  else
+  {
+    alert("no")
+  }
+ 
+}
+
+function merafun(s)
+{
+  $("#appending_id").empty()
+  $("#appending_id").append("<b id='myb' name='"+s+"'></b>")
+  
+  $("#modal1").modal("open")
+  var x =$('#myb').attr('name')
+  alert($('#myb').attr('name'))
+  
+}
+</script>
+
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger"  id="asdasd" onclick='$("#nodatamodal").modal("open")'>Modal no data</a>
+  <a class="waves-effect waves-light btn modal-trigger"  id="asdasd12" onclick='merafun(this.id)'>Modal12</a>
+
+  <!-- Modal Structure -->
+  <div id="nodatamodal" class="modal">
+    <div class="modal-content">
+      <center><i class="material-icons large " style="color: #ff5252;">error_outline</i></center>
+      <br>
+      
+      <center><h2>No Data Available</h2></center>
+      
+    </div>
+    <div class="modal-footer">
+      <center>
+      <a class="modal-close waves-effect green btn" >OK<i class="material-icons left" >check_box</i></a>
+      </center>
+    </div>
+  </div>
+
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn " onclick='$("#modal2").modal("open")'>Modal</a>
+
+    <!-- Modal Structure -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <center><i class="material-icons large " style="color: #ff5252;">error_outline</i></center>
+        <br>
+        
+        <center><h2>Are You Sure ?</h2></center>
+        <center><p>This Round Will Be Removed From The Processasdadd.</p></center>
+        
+      </div>
+      <div class="modal-footer">
+        <center>
+        <a onclick="merafun2(true)" class="modal-close waves-effect green btn" >Confirm<i class="material-icons left" >check_box</i></a>
+        <a onclick="merafun2(false)" class="modal-close waves-effect red btn">Cancel<i class="material-icons left">highlight_off</i></a>
+        </center>
+      </div>
+    </div>
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn "  id="asdasd" onclick='$("#modal3").modal("open")'>Modal23</a>
+
+    <!-- Modal Structure -->
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <center><i class="material-icons large " style="color: #ff5252;">error_outline</i></center>
+        <br>
+        
+        <center><h2>Are You Sure ?</h2></center>
+        <center><p>This Round Will Be Removed From The 3 Process.</p></center>
+        <center>
+          <div class="row">
+            <div class="input-field col s12 m6 offset-m3">
+              <input id="reject_reason" type="text" >
+              <label for="reject_reason">Specify Reason</label>
+            </div>
+          </div>
+        </center>
+        <center><p style="color:red" id="reason_line">Please specify reason.</p></center>
+
+        
+      </div>
+      <div class="modal-footer">
+        <center>
+        <a onclick="merafun2(false)"  class="waves-effect green btn" id="confirm_id">Confirm<i class="material-icons left" >check_box</i></a>
+        <a onclick="merafun2(false)" class="modal-close waves-effect red btn">Cancel<i class="material-icons left">highlight_off</i></a>
+        </center>
+      </div>
+    </div>
+    <div class="row" id="warn">
+      <div class="col s12 m6 offset-m3">
+        <div class="card white">
+          <div class="card-content ">
+            <center><i class="material-icons large" style="color: green;">check_circle</i></center>
+            <center><h1><p  style="color:green">Details Submitted Successfully.</p></h5></center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="warn2">
+      <div class="col s12 m6 offset-m3">
+        <div class="card white">
+          <div class="card-content ">
+            <center><i class="material-icons large" style="color: red;">error</i></center>
+            <center><h1><p  style="color:red">Form Expired <br> 7 Days Passed</p></h5></center>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      
+</html>
+        

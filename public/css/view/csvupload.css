@@ -1,0 +1,20 @@
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.97) url(loader2.gif) no-repeat center center !important;
+    z-index: 10000;
+}
+
+#loader>#txt {
+    font-size: 25px;
+    margin-left: 28% !important;
+    margin-top: 18% !important;
+}
+
+input[type="file"] {
+    display: none;
+}

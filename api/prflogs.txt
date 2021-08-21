@@ -1,0 +1,29 @@
+
+2020/09/18	441194	asdeshpande@mitaoe.ac.in	U-Human Resources
+2020/09/18	520316	asdeshpande@mitaoe.ac.in	U-Field Operations
+2020/09/18	431780	asdeshpande@mitaoe.ac.in	Service-Operations
+2020/09/18	431790	asdeshpande@mitaoe.ac.in	Service-Operations
+2020/09/18	431790	asdeshpande@mitaoe.ac.in	Service-Operations
+2020/09/19	431790	asdeshpande@mitaoe.ac.in	Service-Operations
+2020/09/19	431790	asdeshpande@mitaoe.ac.in	Service-Operations
+2020/09/19	441194	asdeshpande@mitaoe.ac.in	U-Human Resources
+2020/09/21	520316	asdeshpande@mitaoe.ac.in	U-Field Operations
+2020/09/26	431780	asdeshpande@mitaoe.ac.in	Service-Operations
+2020/10/15	431790	asdeshpande@mitaoe.ac.in	Service-Operations
+2020/10/18	431790	asdeshpande@mitaoe.ac.in	Service-Operations
+2020/10/19	441194	asdeshpande@mitaoe.ac.in	U-Human Resources
+2020/10/19	520316	asdeshpande@mitaoe.ac.in	U-Field Operations
+2021/01/26	441194	asdeshpande@mitaoe.ac.in	U-Human Resources
+2021/01/26	441194	rabhosale605@gmail.com	U-Human Resources
+2021/01/31	441194	ybgaikwad@mitaoe.ac.in	U-Human Resources
+2021/01/31	520316	ybgaikwad@mitaoe.ac.in	U-Field Operations
+2021/02/02	431780	ybgaikwad@mitaoe.ac.in	Service-Operations
+2021/08/20	441194	ybgaikwad@mitaoe.ac.in	U-Human Resources
+2021/08/20	431790	ybgaikwad@mitaoe.ac.in	Service-Operations
+2021/08/20	433957	ybgaikwad@mitaoe.ac.in	Service-Operations
+2021/08/20	433977	ybgaikwad@mitaoe.ac.in	Service-Operations
+2021/08/20	434045	ybgaikwad@mitaoe.ac.in	Service-Operations
+2021/08/21	434057	ybgaikwad@mitaoe.ac.in	Service-Operations
+2021/08/21	434067	ybgaikwad@mitaoe.ac.in	Service-Operations
+2021/08/21	434086	ybgaikwad@mitaoe.ac.in	Service-Operations
+2021/08/21	431790	ybgaikwad@mitaoe.ac.in	Service-Operations

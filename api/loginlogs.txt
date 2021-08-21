@@ -1,0 +1,194 @@
+
+AD	atharvadeshpande99@gmail.com	sales		15/10/2020	07:10:36 PM	Login
+AD	atharvadeshpande99@gmail.com	sales		15/10/2020	07:10:57 PM	Logout
+Dhanesh Pawar	dbpawar@mitaoe.ac.in	sales		15/10/2020	07:11:01 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		18/10/2020	01:08:04 PM	Login
+aaa	aaa@gmail.com	knk		18/10/2020	01:15:05 PM	Login
+aaa	aaa@gmail.com	knk		18/10/2020	01:17:49 PM	Logout
+bbb	bbb@gmail.com	yfyuff		18/10/2020	01:18:01 PM	Login
+bbb	bbb@gmail.com	yfyuff		18/10/2020	01:20:36 PM	Logout
+ccc	ccc@gmail.com	hjvjvh		18/10/2020	01:20:49 PM	Login
+ccc	ccc@gmail.com	hjvjvh		18/10/2020	01:23:37 PM	Logout
+Pragati	psgaikwad@mitaoe.ac.in	sales		18/10/2020	01:23:45 PM	Login
+newone	new@new.com	hgh		18/10/2020	01:33:10 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	04:09:44 PM	Login
+Pragati	psgaikwad@mitaoe.ac.in	sales		19/10/2020	04:10:21 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	04:11:46 PM	Logout
+rohit	rabhosale605@gmail.com	hgf		19/10/2020	04:12:06 PM	Login
+Pragati	psgaikwad@mitaoe.ac.in	sales		19/10/2020	04:12:41 PM	Logout
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	04:12:54 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	04:14:58 PM	Logout
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	04:16:34 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	04:18:08 PM	Logout
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	04:24:15 PM	Login
+Pragati	psgaikwad@mitaoe.ac.in	sales		19/10/2020	04:25:33 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	04:55:07 PM	Logout
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	04:55:14 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	05:29:43 PM	Login
+Pragati	psgaikwad@mitaoe.ac.in	sales		19/10/2020	05:44:50 PM	Login
+rohit	rabhosale605@gmail.com	aws		19/10/2020	06:59:34 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		19/10/2020	07:20:07 PM	Logout
+rohit1	ra@gmail.com	aws		19/10/2020	07:20:19 PM	Login
+rohit	rabhosale605@gmail.com	aws		19/10/2020	07:20:55 PM	Logout
+rohit1	ra@gmail.com	aws		19/10/2020	07:21:31 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		10/11/2020	06:21:31 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		17/12/2020	10:57:16 AM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		17/12/2020	11:00:14 AM	Logout
+rohit1	ra@gmail.com	aws		17/12/2020	11:00:20 AM	Login
+rohit1	ra@gmail.com	aws		17/12/2020	11:08:36 AM	Logout
+rohit1	ra@gmail.com	aws		17/12/2020	11:08:43 AM	Login
+rohit1	ra@gmail.com	aws		17/12/2020	11:37:09 AM	Logout
+rohit1	ra@gmail.com	aws		17/12/2020	11:37:16 AM	Login
+rohit1	ra@gmail.com	aws		17/12/2020	01:23:03 PM	Logout
+Atharva	asdeshpande@mitaoe.ac.in	sales		17/12/2020	01:23:10 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		17/12/2020	01:27:24 PM	Logout
+rohit1	ra@gmail.com	aws		17/12/2020	01:27:29 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		17/12/2020	01:29:16 PM	Login
+rohit1	ra@gmail.com	aws		17/12/2020	01:37:03 PM	Logout
+rohit1	ra@gmail.com	aws		17/12/2020	01:37:08 PM	Login
+rohit1	ra@gmail.com	aws		17/12/2020	03:09:53 PM	Logout
+Atharva	asdeshpande@mitaoe.ac.in	sales		17/12/2020	03:09:58 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		17/12/2020	03:38:02 PM	Logout
+rohit1	ra@gmail.com	aws		17/12/2020	03:38:08 PM	Login
+Atharva	asdeshpande@mitaoe.ac.in	sales		20/12/2020	07:17:27 PM	Login
+e	hsd@nsff.c	New Installations-Operations		22/12/2020	05:55:53 PM	Login
+e	hsd@nsff.c	New Installations-Operations		22/12/2020	05:56:23 PM	Logout
+e	hsd@nsff.c	New Installations-Operations		22/12/2020	05:56:23 PM	Logout
+dj	ra@jnd.c	Service Operations		22/12/2020	05:56:43 PM	Login
+dj	ra@jnd.c	Service Operations		22/12/2020	05:57:06 PM	Logout
+dj	ra@jnd.c	Service Operations		22/12/2020	05:57:06 PM	Logout
+rohit1	ra@gmail.com	aws		22/12/2020	06:14:28 PM	Login
+rohit1	ra@gmail.com	aws		22/12/2020	06:15:59 PM	Logout
+abc@gmail.com	abc@gmail.com	New Installations-Sales		22/12/2020	06:16:56 PM	Login
+abc@gmail.com	abc@gmail.com	New Installations-Sales		22/12/2020	06:17:26 PM	Logout
+rohit1	ra@gmail.com	aws		22/12/2020	06:19:06 PM	Login
+rohit1	ra@gmail.com	aws		22/12/2020	06:21:27 PM	Logout
+rohit	abc1@gmail.com	New Installations-Sales		22/12/2020	06:21:35 PM	Login
+rohit	abc1@gmail.com	New Installations-Sales		22/12/2020	06:25:47 PM	Logout
+				22/12/2020	06:25:47 PM	Logout
+rohit1	ra@gmail.com	aws		22/12/2020	06:26:32 PM	Login
+rohit1	ra@gmail.com	aws		22/12/2020	06:27:30 PM	Logout
+df@fhbs.f	fn@fb.con	Modernisation-Sales		22/12/2020	06:27:48 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	11:52:26 AM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	11:56:27 AM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	12:00:39 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	12:23:18 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	12:23:38 PM	Login
+dj	ra@jnd.c	Service Operations		24/12/2020	12:25:58 PM	Login
+dj	ra@jnd.c	Service Operations		24/12/2020	12:26:51 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	12:26:57 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	12:30:20 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	12:33:21 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	12:33:23 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	12:33:29 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	12:33:31 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	12:33:54 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	12:33:56 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	12:34:37 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	12:58:05 PM	Logout
+user1	abc@gmail.com	New Installations-Sales		24/12/2020	12:58:14 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	12:59:23 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	01:05:35 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	01:21:34 PM	Logout
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	01:21:44 PM	Login
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	02:11:46 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	02:11:51 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	02:19:37 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	02:32:45 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	02:32:57 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	02:37:06 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	02:37:12 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	02:38:21 PM	Logout
+R	abc1@gmail.com			24/12/2020	02:38:28 PM	Login
+R	abc1@gmail.com			24/12/2020	02:38:41 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	02:38:48 PM	Login
+g5	fyfg@cfc.c	dept3		24/12/2020	02:39:16 PM	Login
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	02:41:58 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	02:42:42 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	02:42:48 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	02:44:21 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	02:44:28 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	02:44:37 PM	Logout
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	02:45:10 PM	Login
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	03:02:19 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	03:02:24 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	03:13:16 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	03:54:21 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	05:21:12 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	05:26:43 PM	Logout
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	05:27:04 PM	Login
+rohit123	rabhosale605@gmail.com	aws1		24/12/2020	05:30:53 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	05:31:10 PM	Logout
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	05:31:26 PM	Login
+rohit123	rabhosale605@gmail.com	aws1		24/12/2020	05:34:51 PM	Logout
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	05:35:00 PM	Login
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	05:35:50 PM	Logout
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	06:31:20 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	06:31:28 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	07:11:19 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	07:16:20 PM	Logout
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	07:16:33 PM	Login
+Rohit	rabhosale605@gmail.com	U-Administrations		24/12/2020	07:19:50 PM	Logout
+rohit1	ra@gmail.com	aws		24/12/2020	08:04:48 PM	Login
+rohit1	ra@gmail.com	aws		24/12/2020	09:17:48 PM	Logout
+hr	asdeshpande@mitaoe.ac.in	U-Field Operations		26/01/2021	03:18:16 PM	Login
+hr	asdeshpande@mitaoe.ac.in	U-Field Operations		26/01/2021	03:33:34 PM	Login
+pragati	rabhosale@mitaoe.ac.in	U-Field Operations		26/01/2021	03:43:40 PM	Login
+pragati	rabhosale@mitaoe.ac.in	U-Field Operations		26/01/2021	03:44:44 PM	Logout
+Rohit	rabhosale@mitaoe.ac.in	inv		26/01/2021	03:45:02 PM	Login
+Rohit	rabhosale@mitaoe.ac.in	inv		26/01/2021	03:45:23 PM	Logout
+Rohit	rabhosale@mitaoe.ac.in	inv		26/01/2021	03:45:23 PM	Logout
+Rohit	rabhosale@mitaoe.ac.in	inv		26/01/2021	03:45:53 PM	Login
+Rohit	rabhosale@mitaoe.ac.in	inv		26/01/2021	03:46:43 PM	Logout
+rohit	rabhosale@mitaoe.ac.in	Modernisation-Sales		26/01/2021	03:46:51 PM	Login
+rohit	rabhosale@mitaoe.ac.in	Modernisation-Sales		26/01/2021	03:47:30 PM	Logout
+Rohit	rabhosale@mitaoe.ac.in	inv		26/01/2021	03:48:04 PM	Login
+Rohit	rabhosale@mitaoe.ac.in	inv		26/01/2021	03:51:34 PM	Logout
+pragati	rabhosale@mitaoe.ac.in	U-Field Operations		26/01/2021	03:51:40 PM	Login
+pragati	rabhosale@mitaoe.ac.in	U-Field Operations		26/01/2021	03:55:26 PM	Logout
+pragati	rabhosale@mitaoe.ac.in	U-Field Operations		26/01/2021	03:58:21 PM	Login
+hr	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:14:17 PM	Login
+hr	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:14:30 PM	Logout
+hr	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:14:30 PM	Logout
+Rohit HR2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:21:17 PM	Login
+Rohit HR2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:21:24 PM	Logout
+Rohit INV2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:21:32 PM	Login
+Rohit INV2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:21:42 PM	Logout
+Rohit INV2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:21:50 PM	Login
+Rohit INV2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:21:56 PM	Logout
+Rohit HR2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:22:06 PM	Login
+Rohit HR2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	04:22:24 PM	Logout
+rohit	rabhosale605@gmail.com	Modernisation-Sales		26/01/2021	04:22:32 PM	Login
+rohit	rabhosale605@gmail.com	Modernisation-Sales		26/01/2021	04:23:05 PM	Logout
+hr	rabhosale605@gmail.com	U-Field Operations		26/01/2021	05:07:29 PM	Login
+hr	rabhosale605@gmail.com	U-Field Operations		26/01/2021	05:07:35 PM	Logout
+hr	rabhosale605@gmail.com	U-Field Operations		26/01/2021	05:36:28 PM	Login
+Rohit 	rabhosale605@gmail.com	sales		26/01/2021	05:54:34 PM	Login
+Rohit 	rabhosale605@gmail.com	sales		26/01/2021	06:03:23 PM	Logout
+Rohit HR2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	06:03:30 PM	Login
+hr	rabhosale605@gmail.com	U-Field Operations		26/01/2021	06:27:31 PM	Logout
+rohit	rabhosale605@gmail.com	Modernisation-Sales		26/01/2021	06:27:40 PM	Login
+rohit	rabhosale605@gmail.com	Modernisation-Sales		26/01/2021	06:28:44 PM	Logout
+hr	rabhosale605@gmail.com	U		26/01/2021	06:28:51 PM	Login
+Rohit HR2	rabhosale605@gmail.com	U-Field Operations		26/01/2021	06:29:12 PM	Logout
+hr	rabhosale605@gmail.com	U		26/01/2021	06:29:20 PM	Login
+hr	rabhosale605@gmail.com	U		26/01/2021	06:29:32 PM	Logout
+rohit	rabhosale605@gmail.com	Modernisation-Sales		26/01/2021	06:29:37 PM	Login
+rohit	rabhosale605@gmail.com	Modernisation-Sales		26/01/2021	06:31:56 PM	Logout
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	06:02:00 PM	Login
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	06:05:38 PM	Logout
+Mandar Desai	msdesai@mitaoe.ac.in	sales		31/01/2021	06:05:50 PM	Login
+Mandar Desai	msdesai@mitaoe.ac.in	sales		31/01/2021	06:07:06 PM	Logout
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	06:07:44 PM	Login
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	07:07:59 PM	Logout
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	07:08:05 PM	Login
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	07:08:11 PM	Logout
+Mandar Desai	msdesai@mitaoe.ac.in	sales		31/01/2021	07:08:16 PM	Login
+Mandar Desai	msdesai@mitaoe.ac.in	sales		31/01/2021	07:08:38 PM	Logout
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	07:11:38 PM	Login
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	07:12:37 PM	Logout
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	08:09:26 PM	Login
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		31/01/2021	08:17:04 PM	Logout
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		02/02/2021	05:06:55 PM	Login
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		20/08/2021	09:37:09 PM	Login
+Yogesh Gaikwad	ybgaikwad@mitaoe.ac.in	sales		21/08/2021	10:38:36 AM	Login
